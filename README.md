@@ -1,2 +1,23 @@
 # Altium-libs
-Library files for Altium designer
+Библиотека компонентов для Altium Designer
+
+<pre>
+################################# <br>
+Правила оформления PCB Library: <br>
+  [1] Top Layer                     - фольга верхний слой <br>
+  [2] Bottom Layer                  - фольга нижний слой <br>
+  Top Overlay                       - шелкография на верхнем слое <br>
+  Bottom Overlay                    - шелкография на нижнем слое <br>
+  Top Paste                         - паяльная паста на верхнем слое <br>
+  Bottom Paste                      - паяльная паста на нижнем слое <br>
+  Top Solder                        - паяльная маска на верхнем слое <br>
+  Bottom Solder                     - паяльная маска на нижнем слое <br>
+  Mechanical 7  / Mechanical 8      - чертеж сборочный верхнего / нижнего слоёв : на плате оформляются как Layer Pair <br>
+  Mechanical 13                     - 3D модель корпуса компонента <br>
+  Mechanical 15 / Mechanical 16     - чертеж для автомонтажа на верхнем / нижнем слоях : на плате оформляются как Layer Pair <br>
+  Шаг сетки: 0.001, 0.01, 0.1 мм <br> 
+
+################################# <br>
+Правила оформления SCH Library: <br>
+  Шаг сетки: 0.1 мм  <br>
+<pre>
